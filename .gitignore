@@ -1,0 +1,25 @@
+# Dependências (recriadas com npm install)
+node_modules/
+.pnp
+.pnp.js
+
+# Build e cache do Next.js (recriados com npm run dev / npm run build)
+.next/
+out/
+build/
+
+# Logs e arquivos de sistema
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+*.pem
+Thumbs.db
+
+# Variáveis de ambiente secretas (quando adicionarmos Supabase no futuro)
+.env*.local
+.env
+
+# TypeScript cache
+*.tsbuildinfo
+next-env.d.ts
